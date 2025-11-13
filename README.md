@@ -6,7 +6,7 @@ A modern, full-featured social feed application built with React 18, TypeScript,
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-[Live Demo](https://your-deployment-url.com) | [Documentation](#documentation)
+[Live Demo](https://social-media-feed-z2h4.vercel.app/)
 
 ## 🚀 Getting Started
 
