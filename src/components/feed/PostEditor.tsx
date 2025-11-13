@@ -10,7 +10,7 @@ interface PostEditorProps {
 
 export const PostEditor: React.FC<PostEditorProps> = ({ onPublish, onAuthRequired }) => {
   const [content, setContent] = useState('');
-  const { isAuthenticated, user } = useAuth();
+  const { isAuthenticated } = useAuth();
 
   const handleClick = () => {
     if (!isAuthenticated) {

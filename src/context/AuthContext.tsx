@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { User, AuthContextType } from '../types';
 import { getFromStorage, setToStorage, removeFromStorage } from '../utils/storage';
 
@@ -42,6 +42,9 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   const signup = async (name: string, email: string, password: string): Promise<void> => {
     setLoading(true);
+    if (password){
+      console.log('Password received for signup');
+    }
 
     // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 500));
